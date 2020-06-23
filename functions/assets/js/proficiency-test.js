@@ -3,7 +3,7 @@ const mainContentEl = document.querySelector('.pt__main-content'),
     beginTestNode = document.importNode(beginTestTemplate, true);
 
 // Always render the begin-test-template on page load
-// mainContentEl.appendChild(beginTestNode);
+mainContentEl.appendChild(beginTestNode);
 
 // Catch all handler for delegated click events
 mainContentEl.addEventListener('click', e => {
