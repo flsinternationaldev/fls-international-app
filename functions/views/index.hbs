@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{title}}</title>
+
+    <!-- TODO: Use NPM package, use SASS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css" integrity="sha256-6hqHMqXTVEds1R8HgKisLm3l/doneQs+rS1a5NLmwwo=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- TODO: Might want to eventually look into a CDN for loading assets -->
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="navbar is-fixed-top navbar--test">
+        <div class="container container--test">
+          <img src="/img/fls-international-logo.png" alt="FLS International logo" class="navbar__logo">
+        </div>
+    </nav>
+
+    <section class="hero is-medium hero--test">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <div class="hero__copy-container">
+                            <h2 class="subtitle is-white is-uppercase">How Is</h2>
+                            <h2 class="title is-white is-uppercase">Your English?</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container test-container">
+        <section class="articles">
+            <div class="column is-8 is-offset-2">
+                <div class="card article">
+                    <div class="card-content pt__main-content">
+                        <!-- Proficiency test templates rendered here -->
+                        {{> proficiencyTest}}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>      
+
+    <!-- Partial templates -->
+    {{> beginTest}}
+    {{!-- {{> proficiencyTest}} --}}
+    {{> loader}}
+    
+    <script src="/js/proficiency-test.js"></script>
+</body>
+
+</html>

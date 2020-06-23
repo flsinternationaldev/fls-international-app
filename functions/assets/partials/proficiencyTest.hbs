@@ -1,0 +1,23 @@
+<div class="columns is-multiline is-centered">
+    {{#each proficiencyTest as |pTQuestion index|}}
+        <div class="column is-full">
+            {{!-- Figure out some solution for numbering these --}}
+            <h4 class="subtitle is-4">{{pTQuestion.question}}</h4>
+
+            <div class="control pt__test-possible-answers">
+                {{#each pTQuestion.answers as |possibleAnswer|}}
+                    <label class="radio">
+                        <input type="radio" name="answer">
+                        {{possibleAnswer.answer}}
+                    </label>
+                {{/each}}
+            </div>  
+        </div>
+    {{/each}}
+
+    <div class="column is-full">
+        <button class="button">
+            Submit & Grade
+        </button>
+    </div>
+</div>

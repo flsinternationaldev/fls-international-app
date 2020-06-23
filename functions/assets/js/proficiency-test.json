@@ -1,0 +1,128 @@
+[
+    {
+        "question":"_ going to be a party at the student center",
+        "answers":[
+            {
+                "answer":"There are",
+                "isCorrect":false
+            },
+            {
+                "answer":"There",
+                "isCorrect":false
+            },
+            {
+                "answer":"Are there",
+                "isCorrect":false
+            },
+            {
+                "answer":"There's",
+                "isCorrect":true
+            }
+        ]
+    },
+    {
+        "question":"For lunch, I usually like to have _ rice and soup.",
+        "answers":[
+            {
+                "answer":"many",
+                "isCorrect":false
+            },
+            {
+                "answer":"some",
+                "isCorrect":true
+            },
+            {
+                "answer":"much",
+                "isCorrect":false
+            },
+            {
+                "answer":"any",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"Cecilia knows how to make beef curry, _?",
+        "answers":[
+            {
+                "answer":"isn't she",
+                "isCorrect":false
+            },
+            {
+                "answer":"doesn't she?",
+                "isCorrect":true
+            },
+            {
+                "answer":"can't she",
+                "isCorrect":false
+            },
+            {
+                "answer":"wasn't she",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"Beth isn't here. She's _ her aunt in Texas.",
+        "answers":[
+            {
+                "answer":"visit",
+                "isCorrect":false
+            },
+            {
+                "answer":"visited",
+                "isCorrect":false
+            },
+            {
+                "answer":"visiting",
+                "isCorrect":true
+            },
+            {
+                "answer":"visits",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"Yesterday, Mr. Choi _ to the harbor.",
+        "answers":[
+            {
+                "answer":"went",
+                "isCorrect":true
+            },
+            {
+                "answer":"go",
+                "isCorrect":false
+            },
+            {
+                "answer":"going",
+                "isCorrect":false
+            },
+            {
+                "answer":"had be",
+                "isCorrect":false
+            }
+        ]
+    },
+    {
+        "question":"Alicia hates football, but she _ watching a baseball game.",
+        "answers":[
+            {
+                "answer":"hate to",
+                "isCorrect":false
+            },
+            {
+                "answer":"hates",
+                "isCorrect":false
+            },
+            {
+                "answer":"doesn't mind",
+                "isCorrect":true
+            },
+            {
+                "answer":"sick of",
+                "isCorrect":false
+            }
+        ]
+    }
+]

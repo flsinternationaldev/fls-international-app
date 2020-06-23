@@ -2,6 +2,8 @@ const functions = require('firebase-functions');
 const express = require('express');
 const path = require('path');
 const jsonfile = require('jsonfile');
+// TODO: Figure out if there's a way to only get the 'auto' function
+const async = require('async');
 // TODO: Consolidate?
 const engines = require('consolidate');
 
@@ -12,19 +14,45 @@ app.set('view engine', 'hbs');
 
 app.use(express.static(path.join(__dirname, 'assets')));
 
-console.log('static directory', path.join(__dirname, 'assets'));
 app.get('/', (req, res) => {
     res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
 
-    jsonfile.readFile(path.join(__dirname, 'assets/js/countries.json'), (err, obj) => {
-        if (err) console.log('error retrieving countries', err);
+    async.auto({
+        countriesJson: cb => {
+            jsonfile.readFile(path.join(__dirname, 'assets/js/countries.json'), (err, obj) => {
+                if (err) {
+                    console.log('error retrieving countries json', err);
+                    return cb(err);
+                }
+        
+                cb(null, obj);
+            });
+        },
+        quizJson: cb => {
+            jsonfile.readFile(path.join(__dirname, 'assets/js/proficiency-test.json'), (err, obj) => {
+                if (err) {
+                    console.log('error retrieving proficiency-test json', err);
+                    return cb(err);
+                }
+        
+                cb(null, obj);
+            });
+        }
+    }, (err, results) => {
+        if (err) console.log('something went wrong reading the JSONs', err);
 
         const pageProperties = {
             title: 'FLS International Proficiency Test',
-            countries: obj || null
+            countries: results.countriesJson || null,
+            proficiencyTest: results.quizJson || null,
+            partials: {
+                beginTest: path.join(__dirname, 'assets/partials/beginTest'),
+                proficiencyTest: path.join(__dirname, 'assets/partials/proficiencyTest'),
+                loader: path.join(__dirname, 'assets/partials/loader')
+            }
         };
     
-        res.render('proficiency-test', pageProperties)
+        res.render('index', pageProperties)
     });
 });
 
