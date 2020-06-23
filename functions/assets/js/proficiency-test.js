@@ -10,7 +10,6 @@ mainContentEl.addEventListener('click', e => {
     const clickedEl = e.target;
 
     if (clickedEl.classList.contains('pt__begin-test-button')) {
-        console.log('ya got me ;)');
         const postBeginTest = async () => {
             const response = await fetch('/proficiency-test', { method: 'POST' }),
                 parsedResponse = await response.json();
@@ -19,6 +18,23 @@ mainContentEl.addEventListener('click', e => {
         }
     
         postBeginTest();
+    }
+
+    if (clickedEl.classList.contains('pt__submit-grade-button')) {
+        const postGradeTest = async (testAnswers) => {
+            const response = await fetch('/grade-test', { 
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ someFuckingShit: true })
+                }),
+                parsedResponse = await response.json();
+
+                console.log('the sweet taste of success, for quizzes', parsedResponse);
+        }
+    
+        postGradeTest();
     }
 });
 

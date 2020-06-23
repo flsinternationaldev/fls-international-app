@@ -2,12 +2,16 @@ const functions = require('firebase-functions');
 const express = require('express');
 const path = require('path');
 const jsonfile = require('jsonfile');
+const bodyParser = require('body-parser');
 // TODO: Figure out if there's a way to only get the 'auto' function
 const async = require('async');
 // TODO: Consolidate?
 const engines = require('consolidate');
 
 const app = express();
+
+app.use(bodyParser.urlencoded({ extended: true}));
+
 app.engine('hbs', engines.handlebars);
 app.set('views', './views');
 app.set('view engine', 'hbs');
@@ -56,8 +60,12 @@ app.get('/', (req, res) => {
     });
 });
 
-app.post('/proficiency-test', (request, res) => {
+app.post('/proficiency-test', (req, res) => {
     res.status(200).json({ msg: 'this is what success feels like'});
+});
+
+app.post('/grade-test', (req, res) => {
+    res.status(200).json({ msg: 'i wanna grade you so bad, baby', payload: req.body });
 });
 
 exports.app = functions.https.onRequest(app);
