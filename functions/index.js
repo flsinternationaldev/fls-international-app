@@ -1,6 +1,7 @@
 const functions = require('firebase-functions');
 const express = require('express');
 const path = require('path');
+const jsonfile = require('jsonfile');
 // TODO: Consolidate?
 const engines = require('consolidate');
 
@@ -15,11 +16,16 @@ console.log('static directory', path.join(__dirname, 'assets'));
 app.get('/', (req, res) => {
     res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
 
-    const pageProperties = {
-        title: 'FLS International Proficiency Test'
-    };
+    jsonfile.readFile(path.join(__dirname, 'assets/js/countries.json'), (err, obj) => {
+        if (err) console.log('error retrieving countries', err);
 
-    res.render('proficiency-test', pageProperties)
+        const pageProperties = {
+            title: 'FLS International Proficiency Test',
+            countries: obj || null
+        };
+    
+        res.render('proficiency-test', pageProperties)
+    });
 });
 
 app.post('/proficiency-test', (request, res) => {
