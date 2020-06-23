@@ -1,5 +1,6 @@
 const functions = require('firebase-functions');
 const express = require('express');
+const path = require('path');
 // TODO: Consolidate?
 const engines = require('consolidate');
 
@@ -8,13 +9,21 @@ app.engine('hbs', engines.handlebars);
 app.set('views', './views');
 app.set('view engine', 'hbs');
 
-app.get('/', (request, response) => {
-    response.set('Cache-Control', 'public, max-age=300, s-maxage=600');
-    response.render('proficiency-test', { bullshit: ['this', 'is', 'bullshit'] })
+app.use(express.static(path.join(__dirname, 'assets')));
+
+console.log('static directory', path.join(__dirname, 'assets'));
+app.get('/', (req, res) => {
+    res.set('Cache-Control', 'public, max-age=300, s-maxage=600');
+
+    const pageProperties = {
+        title: 'FLS International Proficiency Test'
+    };
+
+    res.render('proficiency-test', pageProperties)
 });
 
-app.post('/proficiency-test', (request, response) => {
-
+app.post('/proficiency-test', (request, res) => {
+    res.status(200).json({ msg: 'this is what success feels like'});
 });
 
 exports.app = functions.https.onRequest(app);
