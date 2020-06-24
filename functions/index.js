@@ -1,14 +1,17 @@
-const functions = require('firebase-functions');
-const express = require('express');
-const path = require('path');
-const jsonfile = require('jsonfile');
-const bodyParser = require('body-parser');
+const functions = require('firebase-functions'),
+    express = require('express'),
+    path = require('path'),
+    jsonfile = require('jsonfile'),
+    bodyParser = require('body-parser'),
+    nodemailer = require('nodemailer'),
 // TODO: Figure out if there's a way to only get the 'auto' function
-const async = require('async');
-// TODO: Consolidate?
-const engines = require('consolidate');
+    async = require('async'),
+    engines = require('consolidate');
 
 const app = express();
+
+// Enable the ability to read env files
+require('dotenv').config();
 
 app.use(bodyParser.urlencoded({ extended: true}));
 
@@ -97,6 +100,34 @@ app.post('/grade-test', (req, res) => {
 
             return numCorrect;
         }
+
+        // TODO: This very obviously needs to be extracted, likely into another file
+        const emailTestResults = async () => {
+            console.log('constructing email', process.env.EMAIL_PASSWORD);
+            const transporter = nodemailer.createTransport({
+                host: 'smtp.gmail.com',
+                port: 587,
+                // TODO: Does this need to be true?
+                secure: false,
+                auth: {
+                    user: process.env.EMAIL_USERNAME,
+                    pass: process.env.EMAIL_PASSWORD
+                }
+            });
+
+            const info = await transporter.sendMail({
+                from: 'gabriel gonzalvez',
+                to: 'akingdebased@gmail.com',
+                subject: 'Test Results',
+                // TODO: This, rather obviously, needs finessing
+                html: `<h2>Proficiency Test Results</h2></p>Correct responses: <strong>${gradeTest(testResponseData, testAnswers)}/${globals.numTestQuestions}</strong></p>`
+            });
+
+            console.log(`email has been sent with messageID ${info.messageId}`);
+        }
+
+        emailTestResults()
+        .catch(err => console.log('error sending email', err));
 
         return res.status(200).json({ msg: 'successfully graded test', gradedTest: gradeTest(testResponseData, testAnswers) });
     });
