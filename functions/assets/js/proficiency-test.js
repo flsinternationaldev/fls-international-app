@@ -32,9 +32,15 @@ mainContentEl.addEventListener('click', e => {
         // Remember, validate.js is a thing
         const userInfo = preTestEls.reduce((accum, preTestEl) => {
             switch (preTestEl.nodeName) {
-                case 'INPUT':
-                    accum[preTestEl.name] = preTestEl.value.trim();
+                // TODO: Kludgy stop gap for the agency field. Needs to be more robust, and be tied to whether or not the user seleted the agency radio
+                case 'INPUT': {
+                    let inputValue = preTestEl.value.trim();
+
+                    if (preTestEl.name === 'agencyName' && !inputValue) inputValue = 'No agency provided';
+
+                    accum[preTestEl.name] = inputValue;
                     return accum;
+                }
 
                 case 'SELECT': {
                     const formattedOption = preTestEl.options[preTestEl.selectedIndex].text.trim().toLowerCase();
@@ -120,13 +126,19 @@ mainContentEl.addEventListener('click', e => {
             return response;
         }
 
+        console.log('questions?', testGlobals.numTestQuestions);
         if (testResponseData.length < testGlobals.numTestQuestions) {
             // TODO: Error handling
             console.log(`user didn't answer all qu1estions`);
         } else {
             postGradeTest(testResponseData)
             .then(response => {
+                console.log('we posted!');
                 if (response.status >= 400) throw Error(response.statusText);
+
+                // TODO: This doesn't feel particularly elegant
+                mainContentEl.innerHTML = '';
+                mainContentEl.append(completedNode);
 
                 return response.json();
             })

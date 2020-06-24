@@ -3,17 +3,23 @@
 <template id="proficiency-test-template">
     <div hidden class="pt__test-globals" data-num-test-questions={{ptQuestions.length}}></div>
     <div class="columns is-multiline is-centered pt__test-container animate__animated animate__fadeIn">
+        <div class="column is-full">
+            <h3 class="title is-4 has-text-left">FLS PROFICIENCY TEST</h3>
+        </div>
+        
         {{#each ptQuestions as |ptQuestion index|}}
             <div class="column is-full pt__test-question-container "data-question-id="{{ptQuestion.id}}" >
                 {{!-- Figure out some solution for numbering these --}}
-                <h4 class="subtitle is-4">{{ptQuestion.question}}</h4>
+                <h4 class="title is-4">{{ptQuestion.question}}</h4>
 
-                <div class="control pt__test-options-container">
+                <div class="columns is-multiline control pt__test-options-container">
                     {{#each ptQuestion.options as |option|}}
-                        <label class="radio">
-                            <input type="radio" name="question-id-{{ptQuestion.id}}" data-option-id="{{option.id}}">
-                            {{option.option}}
-                        </label>
+                        <div class="column is-full">
+                            <label class="radio">
+                                <input type="radio" name="question-id-{{ptQuestion.id}}" data-option-id="{{option.id}}">
+                                {{option.option}}
+                            </label>
+                        </div>
                     {{/each}}
                 </div>  
             </div>
