@@ -66,6 +66,12 @@ body {
     transform: translateY(-0.5rem);
 }
 
+/* Pre-arrival test styles & overrides */
+.select,
+select {
+    width: 100%;
+}
+
 /* Proficiency test styles */
 .pt__test-copy {
     text-align: center;

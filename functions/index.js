@@ -24,7 +24,8 @@ app.use(express.static(path.join(__dirname, 'assets')));
 // Variables to hold on to very simple state
 // TODO: May need to rethink this, eventually
 let globals = {
-    numTestQuestions: null
+    numTestQuestions: null,
+    userData: null
 }
 
 app.get('/', (req, res) => {
@@ -63,8 +64,9 @@ app.get('/', (req, res) => {
             numTestQuestions: globals.numTestQuestions,
             // TODO: Investigate a better method for importing partials
             partials: {
-                beginTest: path.join(__dirname, 'assets/partials/beginTest'),
+                preArrivalTest: path.join(__dirname, 'assets/partials/preArrivalTest'),
                 proficiencyTest: path.join(__dirname, 'assets/partials/proficiencyTest'),
+                completed: path.join(__dirname, 'assets/partials/completed'),
                 loader: path.join(__dirname, 'assets/partials/loader'),
                 scripts: path.join(__dirname, 'assets/partials/scripts')
             }
@@ -74,8 +76,8 @@ app.get('/', (req, res) => {
     });
 });
 
-app.post('/proficiency-test', (req, res) => {
-    res.status(200).json({ msg: 'this is what success feels like'});
+app.post('/pre-arrival-test', (req, res) => {
+    res.status(200).json({ msg: 'this is what success feels like', payload: req.body });
 });
 
 app.post('/grade-test', (req, res) => {

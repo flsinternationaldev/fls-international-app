@@ -1,23 +1,91 @@
 const mainContentEl = document.querySelector('.pt__main-content'),
-    beginTestTemplate = document.querySelector('#begin-test-template').content,
-    beginTestNode = document.importNode(beginTestTemplate, true);
+    preArrivalTestTemplate = document.querySelector('#pre-arrival-test-template').content,
+    preArrivalTestNode = document.importNode(preArrivalTestTemplate, true),
+    proficiencyTestTemplate = document.querySelector('#proficiency-test-template').content,
+    proficiencyTestNode = document.importNode(proficiencyTestTemplate, true),
+    completedTemplate = document.querySelector('#completed-template').content,
+    completedNode = document.importNode(completedTemplate, true);
 
 // Always render the begin-test-template on page load
-// mainContentEl.appendChild(beginTestNode);
+mainContentEl.appendChild(preArrivalTestNode);
 
 // Catch all handler for delegated click events
 mainContentEl.addEventListener('click', e => {
     const clickedEl = e.target;
 
     if (clickedEl.classList.contains('pt__begin-test-button')) {
-        const postBeginTest = async () => {
-            const response = await fetch('/proficiency-test', { method: 'POST' }),
-                parsedResponse = await response.json();
+        const postPreArrivalTest = async (userInfo) => {
+            const response = await fetch('/pre-arrival-test', { 
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(userInfo)
+            });
 
-                console.log('the sweet taste of success', parsedResponse);
+            return response;
         }
     
-        postBeginTest();
+        const preTestEls = Array.apply(null, document.querySelectorAll('.pt__pretest-item'));
+
+        // TODO: Ensure these inputs are VALIDATED and SANITIZED. This is unknown text input from a user, this is a prime XSS vector.
+        // Remember, validate.js is a thing
+        const userInfo = preTestEls.reduce((accum, preTestEl) => {
+            switch (preTestEl.nodeName) {
+                case 'INPUT':
+                    accum[preTestEl.name] = preTestEl.value.trim();
+                    return accum;
+
+                case 'SELECT': {
+                    const formattedOption = preTestEl.options[preTestEl.selectedIndex].text.trim().toLowerCase();
+
+                    accum[preTestEl.name] = formattedOption === 'Select a Country'.toLowerCase() ? '' : formattedOption;
+                    return accum;
+                }
+                    
+                // TODO: This may not be the most robust way to get form data
+                case 'DIV': {
+                    const checkedRadioEl = preTestEl.querySelector('input[type="radio"]:checked');
+                  
+                    if (checkedRadioEl) accum[checkedRadioEl.name] = checkedRadioEl.dataset.radioOption === 'yes';
+                    return accum;
+                }
+            }
+
+            return accum;
+        }, {});
+
+        const isValidUserInfo = (userInfo = {}) => {
+            if (!userInfo || Object.keys(userInfo).length ===0) return false;
+
+            for (const prop in userInfo) {
+                // TODO: No ... just... no.
+                if (typeof userInfo[prop] === 'undefined' || userInfo[prop] === null || userInfo[prop] === '') return false;
+            }
+
+            return true;
+        }
+
+        if (isValidUserInfo(userInfo)) {
+            postPreArrivalTest(userInfo)
+            .then(response => {
+                if (response.status >= 400) throw Error(response.statusText);
+
+                // TODO: Make a generic function for this rendering behavior
+                mainContentEl.innerHTML = '';
+                mainContentEl.appendChild(proficiencyTestNode);
+
+                return;
+            })
+            .catch(err => {
+                // TODO: Handle errors from the server ... eventually
+                console.log('error with test', err)
+            });
+
+        } else {
+            console.log('user info is not valid');
+            // TODO: Error handling
+        }
     }
 
     if (clickedEl.classList.contains('pt__submit-grade-button')) {    

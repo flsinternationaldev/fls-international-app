@@ -1,0 +1,93 @@
+<template id="pre-arrival-test-template">
+	<div class="columns is-centered is-mobile is-multiline pt__test-copy animate__animated animate__fadeIn">
+		<div class="column is-full">
+			<div class="columns is-centered is-multiline">
+				<div class="column is-full">
+					<h3 class="title is-4 has-text-left">FLS PRE-ARRIVAL PROFICIENCY TEST</h3>
+				</div>
+				<div class="column is-full has-text-left">
+					<p>
+						Fill out the information below and submit the form to take the Online English Proficiency Test. When the test is complete a copy of your results will be emailed to the email address provided below.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="column is-full">
+			<div class="columns is-multiline">
+				<div class="column is-half">
+					<div class="field">
+						<div class="control">
+							<input name='firstName' class="input pt__pretest-item" type="text" placeholder="First Name">
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-half">
+					<div class="field">
+						<div class="control">
+							<input  name='familyName' class="input pt__pretest-item" type="text" placeholder="Family Name">
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-half">
+					<div class="select">
+						<select class="pt__pretest-item" name="country">
+							<option disabled selected hidden>Select a Country</option>
+							{{#each countries as |country|}}
+								<option value="{{country.name}}">{{country.name}}</option>
+							{{/each}}
+						</select>
+					</div>
+				</div>
+
+				<div class="column is-half">
+					<div class="field">
+						<div class="control">
+							{{!-- TODO: Do we care about duplicate emails? --}}
+							<input name="email" class="input pt__pretest-item" type="email" placeholder="Your Email">
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-full">
+					<div class="columns">
+						<div class="column is-half">
+							<div class="columns">
+								<div class="column is-half">
+									<p class="is-size-5 has-text-left">Are you working with an agency?</p>
+								</div>
+								<div class="column is-half">
+									<div class="control pt__pretest-item">
+										<label class="radio">
+											<input data-radio-option="yes" type="radio" name="isAgent">
+											Yes
+										</label>
+										<label class="radio">
+											<input data-radio-option="no" type="radio" name="isAgent">
+											No
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- This should only show if the user is working with an agency -->
+						<div class="column is-half">
+							<div class="field">
+								<div class="control">
+									<input name='agencyName' class="input pt__pretest-item" type="text" placeholder="Agency name" value="No agency">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-full">
+					<button class="button pt__begin-test-button">
+						Begin the Test
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

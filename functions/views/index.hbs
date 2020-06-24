@@ -28,8 +28,8 @@
                 <div class="columns is-centered">
                     <div class="column is-half">
                         <div class="hero__copy-container">
-                            <h2 class="subtitle is-white is-uppercase">How Is</h2>
-                            <h2 class="title is-white is-uppercase">Your English?</h2>
+                            <h2 class="subtitle is-white is-uppercase">How Is Your English?</h2>
+                            <h2 class="title is-white is-uppercase">FLS Proficiency Test</h2>
                         </div>
                     </div>
                 </div>
@@ -42,8 +42,7 @@
             <div class="column is-8 is-offset-2">
                 <div class="card article">
                     <div class="card-content pt__main-content">
-                        <!-- Proficiency test templates rendered here -->
-                        {{> proficiencyTest}}
+                        <!-- Main content templates rendered here -->
                     </div>
                 </div>
             </div>
@@ -51,8 +50,9 @@
     </div>      
 
     <!-- Partial templates -->
-    {{> beginTest}}
-    {{!-- {{> proficiencyTest}} --}}
+    {{> preArrivalTest}}
+    {{> proficiencyTest}}
+    {{> completed}}
     {{> loader}}
     
     {{> scripts}}
