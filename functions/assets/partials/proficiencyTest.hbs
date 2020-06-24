@@ -1,15 +1,17 @@
 <!-- TODO: Make this really slick and animate each question one at a time, so there's a 'cascading' effect -->
-<div class="columns is-multiline is-centered animate__animated animate__fadeIn">
-    {{#each proficiencyTest as |pTQuestion index|}}
-        <div class="column is-full">
+<!-- TODO: Might want to rethink how values from Node are passed in-->
+<div hidden class="pt__test-globals" data-num-test-questions={{ptQuestions.length}}></div>
+<div class="columns is-multiline is-centered pt__test-container animate__animated animate__fadeIn">
+    {{#each ptQuestions as |ptQuestion index|}}
+        <div class="column is-full pt__test-question-container "data-question-id="{{ptQuestion.id}}" >
             {{!-- Figure out some solution for numbering these --}}
-            <h4 class="subtitle is-4">{{pTQuestion.question}}</h4>
+            <h4 class="subtitle is-4">{{ptQuestion.question}}</h4>
 
-            <div class="control pt__test-possible-answers">
-                {{#each pTQuestion.answers as |possibleAnswer|}}
+            <div class="control pt__test-options-container">
+                {{#each ptQuestion.options as |option|}}
                     <label class="radio">
-                        <input type="radio" name="answer">
-                        {{possibleAnswer.answer}}
+                        <input type="radio" name="question-id-{{ptQuestion.id}}" data-option-id="{{option.id}}">
+                        {{option.option}}
                     </label>
                 {{/each}}
             </div>  

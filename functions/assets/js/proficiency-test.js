@@ -3,7 +3,7 @@ const mainContentEl = document.querySelector('.pt__main-content'),
     beginTestNode = document.importNode(beginTestTemplate, true);
 
 // Always render the begin-test-template on page load
-mainContentEl.appendChild(beginTestNode);
+// mainContentEl.appendChild(beginTestNode);
 
 // Catch all handler for delegated click events
 mainContentEl.addEventListener('click', e => {
@@ -20,21 +20,58 @@ mainContentEl.addEventListener('click', e => {
         postBeginTest();
     }
 
-    if (clickedEl.classList.contains('pt__submit-grade-button')) {
-        const postGradeTest = async (testAnswers) => {
+    if (clickedEl.classList.contains('pt__submit-grade-button')) {    
+        // Convert the nodeList querySelectorAll returns into an array
+        const testQuestionsEls = Array.apply(null, document.querySelectorAll('.pt__test-question-container')),
+            testGlobals = document.querySelector('.pt__test-globals').dataset;
+
+        let testResponseData = [];
+
+        testQuestionsEls.forEach(testQuestionEl => {
+            const testQuestionOptions = Array.apply(null, testQuestionEl.querySelectorAll('.pt__test-options-container input')),
+                selectedOption = testQuestionOptions.find(testQuestionOption => testQuestionOption.checked);
+
+            if (selectedOption)  {
+                testResponseData.push({
+                    questionId: testQuestionEl.dataset.questionId,
+                    selectedOptionId: selectedOption.dataset.optionId
+                })
+            } 
+        });
+
+        // TODO: The function definitions should be pulled out of here, maybe put in another file
+        const postGradeTest = async (testResponses) => {
             const response = await fetch('/grade-test', { 
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({ someFuckingShit: true })
-                }),
-                parsedResponse = await response.json();
+                    body: JSON.stringify(testResponses)
+                });
 
-                console.log('the sweet taste of success, for quizzes', parsedResponse);
+            return response;
         }
-    
-        postGradeTest();
+
+        if (testResponseData.length < testGlobals.numTestQuestions) {
+            // TODO: Error handling
+            console.log(`user didn't answer all qu1estions`);
+        } else {
+            postGradeTest(testResponseData)
+            .then(response => {
+                if (response.status >= 400) throw Error(response.statusText);
+
+                return response.json();
+            })
+            .then(parsedResponse => {
+                console.log('the parsed response!', parsedResponse);
+
+                return;
+            })
+            .catch(err => {
+                // TODO: Handle errors from the server ... eventually
+                console.log('error with test', err)
+            });
+        }
     }
 });
 
