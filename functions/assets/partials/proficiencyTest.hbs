@@ -1,54 +1,61 @@
 <!-- TODO: Make this really slick and animate each question one at a time, so there's a 'cascading' effect -->
 <!-- TODO: Might want to rethink how values from Node are passed in-->
 <template id="proficiency-test-template">
-    <div hidden class="pt__test-globals" data-num-test-questions={{ptQuestions.length}}></div>
-    <div class="columns is-multiline is-centered pt__test-container animate__animated animate__fadeIn">
-        <div class="column is-full">
-            <h3 class="title is-4 has-text-left">FLS PROFICIENCY TEST</h3>
-        </div>
-        
-        {{#each ptQuestions as |ptQuestion index|}}
-            <div class="column is-full pt__test-question-container "data-question-id="{{ptQuestion.id}}" >
-                {{#if ptQuestion.readingComprehension}}
-                    <div class="columns is-multiline">
-                        {{#if ptQuestion.readingComprehension.title}}
-                            <div class="column is-full">
-                                <h3 class="title is-3">{{ptQuestion.readingComprehension.title}}</h3>
-                            </div>
-                        {{/if}}
+	<div hidden class="pt__test-globals" data-num-test-questions={{ptQuestions.length}}></div>
+	<div class="columns is-multiline is-centered pt__test-container animate__animated animate__fadeIn">
+		<div class="column is-full">
+			<h3 class="title is-4 has-text-left">FLS PROFICIENCY TEST</h3>
+		</div>
+		
+		{{#each ptQuestions as |ptQuestion index|}}
+			<div class="column is-full pt__test-question-container "data-question-id="{{ptQuestion.id}}" >
+				{{#if ptQuestion.readingComprehension}}
+					<div class="columns is-multiline">
+						{{#if ptQuestion.readingComprehension.title}}
+							<div class="column is-full">
+								<h3 class="title is-3">{{ptQuestion.readingComprehension.title}}</h3>
+							</div>
+						{{/if}}
 
-                        {{#if ptQuestion.readingComprehension.subtitle}}
-                            <p class="column is-full">{{ptQuestion.readingComprehension.subtitle}}</p>
-                        {{/if}}
+						{{#if ptQuestion.readingComprehension.subtitle}}
+							<p class="column is-full">{{ptQuestion.readingComprehension.subtitle}}</p>
+						{{/if}}
 
-                        <div class="column is-full">
-                            <h5 class="title is-5">{{ptQuestion.readingComprehension.passage}}</h5>
-                        </div>
+						<div class="column is-full">
+							<h5 class="title is-5">{{ptQuestion.readingComprehension.passage}}</h5>
+						</div>
 
-                        <div class="column is-full">
-                            {{{ptQuestion.readingComprehension.text}}}
-                        </div>
-                    </div>
-                {{/if}}
-                <h4 class="title is-4">{{ptQuestion.question}}</h4>
+						<div class="column is-full">
+							{{{ptQuestion.readingComprehension.text}}}
+						</div>
+					</div>
+				{{/if}}
+				<h4 class="title is-4">{{ptQuestion.question}}</h4>
 
-                <div class="columns is-multiline control pt__test-options-container">
-                    {{#each ptQuestion.options as |option|}}
-                        <div class="column is-full">
-                            <label class="radio">
-                                <input type="radio" name="question-id-{{ptQuestion.id}}" data-option-id="{{option.id}}">
-                                {{option.option}}
-                            </label>
-                        </div>
-                    {{/each}}
-                </div>  
-            </div>
-        {{/each}}
+				<div class="columns is-multiline control pt__test-options-container">
+					{{#each ptQuestion.options as |option|}}
+						<div class="column is-full">
+							<label class="radio">
+								<input type="radio" name="question-id-{{ptQuestion.id}}" data-option-id="{{option.id}}">
+								{{option.option}}
+							</label>
+						</div>
+					{{/each}}
+				</div>  
+			</div>
+		{{/each}}
 
-        <div class="column is-full">
-            <button class="button pt__submit-grade-button">
-                Submit & Grade
-            </button>
-        </div>
-    </div>
+		<div class="column is-full">
+			<button class="button pt__submit-grade-button">
+				Submit & Grade
+			</button>
+		</div>
+
+		<div class="column is-full is-hidden pt__error-container">
+			<div class="notification is-danger is-light">
+				<!-- TODO: This error needs to be dynamic based on the actual error occurring -->
+				Please answer all questions, and submit again.
+			</div>
+		</div>
+	</div>
 </template>
