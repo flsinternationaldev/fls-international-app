@@ -6,7 +6,7 @@ const mainContentEl = document.querySelector('.pt__main-content'),
     completedTemplate = document.querySelector('#completed-template').content,
     completedNode = document.importNode(completedTemplate, true);
 
-// Always render the begin-test-template on page load
+// Always render the pre-arrival-test-template on page load
 mainContentEl.appendChild(preArrivalTestNode);
 
 // Catch all handler for delegated click events

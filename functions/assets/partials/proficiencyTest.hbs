@@ -9,7 +9,27 @@
         
         {{#each ptQuestions as |ptQuestion index|}}
             <div class="column is-full pt__test-question-container "data-question-id="{{ptQuestion.id}}" >
-                {{!-- Figure out some solution for numbering these --}}
+                {{#if ptQuestion.readingComprehension}}
+                    <div class="columns is-multiline">
+                        {{#if ptQuestion.readingComprehension.title}}
+                            <div class="column is-full">
+                                <h3 class="title is-3">{{ptQuestion.readingComprehension.title}}</h3>
+                            </div>
+                        {{/if}}
+
+                        {{#if ptQuestion.readingComprehension.subtitle}}
+                            <p class="column is-full">{{ptQuestion.readingComprehension.subtitle}}</p>
+                        {{/if}}
+
+                        <div class="column is-full">
+                            <h5 class="title is-5">{{ptQuestion.readingComprehension.passage}}</h5>
+                        </div>
+
+                        <div class="column is-full">
+                            {{{ptQuestion.readingComprehension.text}}}
+                        </div>
+                    </div>
+                {{/if}}
                 <h4 class="title is-4">{{ptQuestion.question}}</h4>
 
                 <div class="columns is-multiline control pt__test-options-container">

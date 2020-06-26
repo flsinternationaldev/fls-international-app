@@ -1042,6 +1042,12 @@
     },
     {
         "question":"According to the passage, Abraham Lincoln died.",
+        "readingComprehension": {
+            "title": "Section II: Reading Comprehension",
+            "subtitle": "Read each passage and then choose the best response",
+            "passage": "Passage A",
+            "text": "<p>Abraham Lincoln, the sixteenth President of the United States, successfully led his country through its greatest internal crisis, the American Civil War, only to be assassinated as the war was coming to an end. Before becoming the first Republican elected to the Presidency, Lincoln was a lawyer, an Illinois state legislator, a member of the United States House of Representatives, and an unsuccessful candidate for election to the Senate.</p><br><p>As an outspoken opponent of the expansion of slavery in the United States, Lincoln won the Republican Party nomination in 1860 and was elected president later that year. During his time in office, he contributed to the effort to preserve the United States by leading the defeat of the secessionist Confederate States of America in the American Civil War. He introduced measures that resulted in the abolition of slavery, issuing his Emancipation Proclamation in 1863 and promoting the passage of the Thirteenth Amendment to the Constitution, which passed Congress before Lincoln's death and was ratified by the states later in 1865.</p>"
+        },
         "id":41,
         "options":[
             {
@@ -1120,6 +1126,10 @@
     },
     {
         "question":"Based on the information in the passage, a polymath is probably:",
+        "readingComprehension": {
+            "passage": "Passage B",
+            "text": "<p>Benjamin Franklin was one of the Founding Fathers of the United States of America. A noted polymath, Franklin was a leading author and printer, satirist, political theorist, politician, scientist, inventor, civic activist, statesman and diplomat. As a scientist he was a major figure in the Enlightenment and the history of physics for his discoveries and theories regarding electricity. He invented the lightning rod, bifocals, the Franklin stove, a carriage odometer, and a musical instrument. He formed both the first public lending library in America and first fire department in Pennsylvania. He was an early proponent of colonial unity and as a political writer and activist he, more than anyone, invented the idea of an American nation and as a diplomat during the American Revolution, he secured the French alliance that helped to make independence possible.</p><br><p>Franklin is credited as being foundational to the roots of American values and character, a marriage of the practical and democratic Puritan values of thrift, hard work, education, community spirit, self-governing institutions, and opposition to authoritarianism both political and religious, with the scientific and tolerant values of the Enlightenment. In the words of Henry Steele Commager, \"In Franklin could be merged the virtues of Puritanism without its defects, the illumination of the Enlightenment without its heat.\" To Walter Isaacson, this makes Franklin, \"the most accomplished American of his age and the most influential in inventing the type of society America would become.\"</p>"
+        },
         "id":44,
         "options":[
             {
@@ -1172,6 +1182,10 @@
     },
     {
         "question":"In this passage a 'treaty' most likely refers to",
+        "readingComprehension": {
+            "passage": "Passage C",
+            "text": "<p>The Treaty of Guadalupe Hidalgo, by which California formally became a part of the United States, was signed February 2, 1848. Two weeks before, in one of the innumerable canyons of the Sierra Nevada, a man named James W. Marshall chanced upon some glittering particles in the tail race of a saw mill belonging to his employer, John A. Sutter. Before the ink was scarcely dry on the treaty, the news of Marshall's discovery had begun to set an eager world in ferment and to change the whole course of California history.</p><br><p>Gold had been found in California long before Marshall gathered it out of the tail race of the mill on the South Fork of the American River. Seven years before, in the Santa Feliciana Canyon, Francisco Lopez, a native Californian, came upon traces of the metal as he was digging up wild onions in the shade of an oak tree under which he had stopped to rest.</p>"
+        },
         "id":46,
         "options":[
             {
@@ -1224,6 +1238,10 @@
     },
     {
         "question":"In this passage, the word 'edifice' probably means",
+        "readingComprehension": {
+            "passage": "Passage D",
+            "text": "<p>A throng of bearded men, in sad colored garments and grey steeple-crowned hats, intermixed with women, some wearing hoods, and others bareheaded, was assembled in front of a wooden edifice, the door of which was heavily timbered with oak, and studded with iron spikes.</p><br><p>The founders of a new colony, whatever Utopia of human virtue and happiness they might originally project, have invariably recognized it among their earliest practical necessities to allot a portion of the virgin soil as a cemetery, and another portion as the site of a prison. In accordance with this rule it may be safely assumed that the forefathers of Boston had built the first prison-house somewhere in the Vicinity of Cornhill, almost as seasonably as they marked out the first burial-ground, on Isaac Johnson's lot, and round about his grave, which subsequently became the nucleus of all the congregated sepulchers in the old churchyard of King's Chapel.</p><br> <p>Certain it is that, some fifteen or twenty years after the settlement of the town, the wooden jail was already marked with weatherstains and other indications of age, which gave a yet darker aspect to its beetle-browed and gloomy front. The rust on the ponderous iron-work of its oaken door looked more antique than anything else in the New World. Like all that pertains to crime, it seemed never to have known a youthful era. Before this ugly edifice, and between it and the wheel-track of the street, was a grass-plot, much overgrown with burdock, pig-weed, apple-pern, and such unsightly vegetation, which evidently found something congenial in the soil that had so early borne the black flower of civilized society, a prison.</p>"
+        },
         "id":48,
         "options":[
             {
@@ -1276,7 +1294,7 @@
     },
     {
         "question":"In this passage, the word 'congenial' is closest in meaning to",
-        "id":49,
+        "id":50,
         "options":[
             {
                 "id":193,
