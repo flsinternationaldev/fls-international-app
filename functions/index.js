@@ -71,6 +71,7 @@ app.get('/', (req, res) => {
 				preArrivalTest: path.join(__dirname, 'assets/partials/preArrivalTest'),
 				proficiencyTest: path.join(__dirname, 'assets/partials/proficiencyTest'),
 				completed: path.join(__dirname, 'assets/partials/completed'),
+				footer: path.join(__dirname, 'assets/partials/footer'),
 				loader: path.join(__dirname, 'assets/partials/loader'),
 				scripts: path.join(__dirname, 'assets/partials/scripts')
 			}
