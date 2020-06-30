@@ -1053,7 +1053,7 @@
 			{
 				"id":161,
 				"option":"after the American Civil War",
-				"isCorrect":false
+				"isCorrect":true
 			},
 			{
 				"id":162,
@@ -1068,7 +1068,7 @@
 			{
 				"id":164,
 				"option":"before the conclusion of the war",
-				"isCorrect":true
+				"isCorrect":false
 			}
 		]
 	},
