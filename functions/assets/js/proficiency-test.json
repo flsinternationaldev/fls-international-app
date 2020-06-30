@@ -1,1321 +1,1321 @@
 [
-    {
-        "question":"_ going to be a party at the student center",
-        "id": 1,
-        "options":[
-            {
-                "id": 1,
-                "option":"There are",
-                "isCorrect":false
-            },
-            {   
-                "id": 2,
-                "option":"There",
-                "isCorrect":false
-            },
-            {
-                "id": 3,
-                "option":"Are there",
-                "isCorrect":false
-            },
-            {
-                "id": 4,
-                "option":"There's",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"For lunch, I usually like to have _ rice and soup.",
-        "id": 2,
-        "options":[
-            {
-                "id": 5,
-                "option":"many",
-                "isCorrect":false
-            },
-            {
-                "id": 6,
-                "option":"some",
-                "isCorrect":true
-            },
-            {
-                "id": 7,
-                "option":"much",
-                "isCorrect":false
-            },
-            {
-                "id": 8,
-                "option":"any",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Cecilia knows how to make beef curry, _?",
-        "id": 3,
-        "options":[
-            {
-                "id": 9,
-                "option":"isn't she",
-                "isCorrect":false
-            },
-            {
-                "id": 10,
-                "option":"doesn't she?",
-                "isCorrect":true
-            },
-            {
-                "id": 11,
-                "option":"can't she",
-                "isCorrect":false
-            },
-            {
-                "id": 12,
-                "option":"wasn't she",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Beth isn't here. She's _ her aunt in Texas.",
-        "id": 4,
-        "options":[
-            {
-                "id": 13,
-                "option":"visit",
-                "isCorrect":false
-            },
-            {
-                "id": 14,
+	{
+		"question":"_ going to be a party at the student center",
+		"id": 1,
+		"options":[
+			{
+				"id": 1,
+				"option":"There are",
+				"isCorrect":false
+			},
+			{   
+				"id": 2,
+				"option":"There",
+				"isCorrect":false
+			},
+			{
+				"id": 3,
+				"option":"Are there",
+				"isCorrect":false
+			},
+			{
+				"id": 4,
+				"option":"There's",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"For lunch, I usually like to have _ rice and soup.",
+		"id": 2,
+		"options":[
+			{
+				"id": 5,
+				"option":"many",
+				"isCorrect":false
+			},
+			{
+				"id": 6,
+				"option":"some",
+				"isCorrect":true
+			},
+			{
+				"id": 7,
+				"option":"much",
+				"isCorrect":false
+			},
+			{
+				"id": 8,
+				"option":"any",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Cecilia knows how to make beef curry, _?",
+		"id": 3,
+		"options":[
+			{
+				"id": 9,
+				"option":"isn't she",
+				"isCorrect":false
+			},
+			{
+				"id": 10,
+				"option":"doesn't she?",
+				"isCorrect":true
+			},
+			{
+				"id": 11,
+				"option":"can't she",
+				"isCorrect":false
+			},
+			{
+				"id": 12,
+				"option":"wasn't she",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Beth isn't here. She's _ her aunt in Texas.",
+		"id": 4,
+		"options":[
+			{
+				"id": 13,
+				"option":"visit",
+				"isCorrect":false
+			},
+			{
+				"id": 14,
 
-                "option":"visited",
-                "isCorrect":false
-            },
-            {
-                "id": 15,
-                "option":"visiting",
-                "isCorrect":true
-            },
-            {
-                "id": 16,
-                "option":"visits",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Yesterday, Mr. Choi _ to the harbor.",
-        "id": 5,
-        "options":[
-            {
-                "id": 17,
-                "option":"went",
-                "isCorrect":true
-            },
-            {
-                "id": 18,
-                "option":"go",
-                "isCorrect":false
-            },
-            {
-                "id": 19,
-                "option":"going",
-                "isCorrect":false
-            },
-            {
-                "id": 20,
-                "option":"had be",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Alicia hates football, but she _ watching a baseball game.",
-        "id": 6,
-        "options":[
-            {
-                "id": 21,
-                "option":"hate to",
-                "isCorrect":false
-            },
-            {
-                "id": 22,
-                "option":"hates",
-                "isCorrect":false
-            },
-            {
-                "id": 23,
-                "option":"doesn't mind",
-                "isCorrect":true
-            },
-            {
-                "id": 24,
-                "option":"sick of",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"China is the _ country in the world.",
-        "id": 7,
-        "options":[
-            {
-                "id": 25,
-                "option":"bigger",
-                "isCorrect":false
-            },
-            {
-                "id": 26,
-                "option":"biggest",
-                "isCorrect":true
-            },
-            {
-                "id": 27,
-                "option":"most big",
-                "isCorrect":false
-            },
-            {
-                "id": 28,
-                "option":"big",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"_ we visit the Vatican while we're in Italy?",
-        "id": 8,
-        "options":[
-            {
-                "id": 29,
-                "option":"Why don't",
-                "isCorrect":true
-            },
-            {
-                "id": 30,
-                "option":"Why not",
-                "isCorrect":false
-            },
-            {
-                "id": 31,
-                "option":"Why",
-                "isCorrect":true
-            },
-            {
-                "id": 32,
-                "option":"Why could",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"If I visited France, _ to spend at least three days in Paris.",
-        "id": 9,
-        "options":[
-            {
-                "id": 33,
-                "option":"I will",
-                "isCorrect":false
-            },
-            {
-                "id": 34,
-                "option":"I would",
-                "isCorrect":false
-            },
-            {
-                "id": 35,
-                "option":"I'm planning",
-                "isCorrect":false
-            },
-            {
-                "id": 36,
-                "option":"I would plan",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"The doctor _ my brother that he has to exercise more often.",
-        "id": 10,
-        "options":[
-            {
-                "id": 37,
-                "option":"said",
-                "isCorrect":false
-            },
-            {
-                "id": 38,
-                "option":"told to",
-                "isCorrect":false
-            },
-            {
-                "id": 39,
-                "option":"told",
-                "isCorrect":true
-            },
-            {
-                "id": 40,
-                "option":"said that",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"In the future, I think that everyone _ flying cars.",
-        "id": 11,
-        "options":[
-            {
-                "id": 41,
-                "option":"driving",
-                "isCorrect":false
-            },
-            {
-                "id": 42,
-                "option":"drives",
-                "isCorrect":false
-            },
-            {
-                "id": 43,
-                "option":"will driving",
-                "isCorrect":false
-            },
-            {
-                "id": 44,
-                "option":"will drive",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"_ company that's sold the most digital music players is Apple.",
-        "id": 12,
-        "options":[
-            {
-                "id": 45,
-                "option":"An",
-                "isCorrect":false
-            },
-            {
-                "id": 46,
-                "option":"A",
-                "isCorrect":false
-            },
-            {
-                "id": 47,
-                "option":"This",
-                "isCorrect":false
-            },
-            {
-                "id": 48,
-                "option":"The",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"After the teacher talked to them, the students worked _ than before.",
-        "id":13,
-        "options":[
-            {
-                "id":49,
-                "option":"quieter",
-                "isCorrect":false
-            },
-            {
-                "id":50,
-                "option":"more quietly",
-                "isCorrect":true
-            },
-            {
-                "id":51,
-                "option":"quietly",
-                "isCorrect":false
-            },
-            {
-                "id":52,
-                "option":"as quietly",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"I _ Moscow yet, but I want to go there someday.",
-        "id":14,
-        "options":[
-            {
-                "id":53,
-                "option":"haven't visited",
-                "isCorrect":true
-            },
-            {
-                "id":54,
-                "option":"visited",
-                "isCorrect":false
-            },
-            {
-                "id":55,
-                "option":"was visiting",
-                "isCorrect":false
-            },
-            {
-                "id":56,
-                "option":"wasn't visit",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"The travelers complained that the excursion wasn't _ for them to enjoy all the sights of the jungle.",
-        "id":15,
-        "options":[
-            {
-                "id":57,
-                "option":"too long",
-                "isCorrect":false
-            },
-            {
-                "id":58,
-                "option":"enough long",
-                "isCorrect":false
-            },
-            {
-                "id":59,
-                "option":"long enough",
-                "isCorrect":true
-            },
-            {
-                "id":60,
-                "option":"longer enough",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"My aunt _ chicken, when she heard a sinister scream outside.",
-        "id":16,
-        "options":[
-            {
-                "id":61,
-                "option":"cooked",
-                "isCorrect":false
-            },
-            {
-                "id":62,
-                "option":"was cooking",
-                "isCorrect":true
-            },
-            {
-                "id":63,
-                "option":"is cooking",
-                "isCorrect":false
-            },
-            {
-                "id":64,
-                "option":"will cook",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"The girls _ cook Thai food and Japanese food last week.",
-        "id":17,
-        "options":[
-            {
-                "id":65,
-                "option":"can",
-                "isCorrect":false
-            },
-            {
-                "id":66,
-                "option":"manage to",
-                "isCorrect":false
-            },
-            {
-                "id":67,
-                "option":"were",
-                "isCorrect":false
-            },
-            {
-                "id":68,
-                "option":"were able to",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"Alex has lived in San Francisco _ 1996.",
-        "id":18,
-        "options":[
-            {
-                "id":69,
-                "option":"for",
-                "isCorrect":false
-            },
-            {
-                "id":70,
-                "option":"since",
-                "isCorrect":true
-            },
-            {
-                "id":71,
-                "option":"for the",
-                "isCorrect":false
-            },
-            {
-                "id":72,
-                "option":"thereafter",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"The Portrait of a Lady _ Henry James, an American author.",
-        "id":19,
-        "options":[
-            {
-                "id":73,
-                "option":"wrote",
-                "isCorrect":false
-            },
-            {
-                "id":74,
-                "option":"is written by",
-                "isCorrect":false
-            },
-            {
-                "id":75,
-                "option":"was written by",
-                "isCorrect":true
-            },
-            {
-                "id":76,
-                "option":"had written",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Can you do me a favor and _ some of my clothes at the dry cleaners?",
-        "id":20,
-        "options":[
-            {
-                "id":77,
-                "option":"take out",
-                "isCorrect":false
-            },
-            {
-                "id":78,
-                "option":"take up",
-                "isCorrect":false
-            },
-            {
-                "id":79,
-                "option":"pick up",
-                "isCorrect":true
-            },
-            {
-                "id":80,
-                "option":"pick out",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"If I have free time next week, _ to the beach.",
-        "id":21,
-        "options":[
-            {
-                "id":81,
-                "option":"I'll go",
-                "isCorrect":true
-            },
-            {
-                "id":82,
-                "option":"I would go",
-                "isCorrect":false
-            },
-            {
-                "id":83,
-                "option":"going",
-                "isCorrect":false
-            },
-            {
-                "id":84,
-                "option":"I can",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Greg _ the piano every day for the past four years.",
-        "id":22,
-        "options":[
-            {
-                "id":85,
-                "option":"plays",
-                "isCorrect":false
-            },
-            {
-                "id":86,
-                "option":"playing",
-                "isCorrect":false
-            },
-            {
-                "id":87,
-                "option":"has been playing",
-                "isCorrect":true
-            },
-            {
-                "id":88,
-                "option":"did playing",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"After working an office job for ten years, _ a creature of habit.",
-        "id":23,
-        "options":[
-            {
-                "id":89,
-                "option":"Phil turned into",
-                "isCorrect":true
-            },
-            {
-                "id":90,
-                "option":"Phil turned him into",
-                "isCorrect":false
-            },
-            {
-                "id":91,
-                "option":"turned Phil into",
-                "isCorrect":false
-            },
-            {
-                "id":92,
-                "option":"Phil turned in",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"They had _ time at the Fountain Club that they decided to go back next Saturday.",
-        "id":24,
-        "options":[
-            {
-                "id":93,
-                "option":"had so many good",
-                "isCorrect":false
-            },
-            {
-                "id":94,
-                "option":"so good",
-                "isCorrect":false
-            },
-            {
-                "id":95,
-                "option":"such that time",
-                "isCorrect":false
-            },
-            {
-                "id":96,
-                "option":"such a good",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"_ go shopping than see the new superhero movie.",
-        "id":25,
-        "options":[
-            {
-                "id":97,
-                "option":"I prefer",
-                "isCorrect":false
-            },
-            {
-                "id":98,
-                "option":"I'm rather",
-                "isCorrect":false
-            },
-            {
-                "id":99,
-                "option":"I'd rather",
-                "isCorrect":true
-            },
-            {
-                "id":100,
-                "option":"I'd rather to",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"I think that visiting America is _ visiting Canada.",
-        "id":26,
-        "options":[
-            {
-                "id":101,
-                "option":"more exciting",
-                "isCorrect":false
-            },
-            {
-                "id":102,
-                "option":"more exciting than",
-                "isCorrect":true
-            },
-            {
-                "id":103,
-                "option":"more excitement than",
-                "isCorrect":false
-            },
-            {
-                "id":104,
-                "option":"more exciting as",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"The black bear thrives in a forested _ rich in animals such as salmon, deer and bees.",
-        "id":27,
-        "options":[
-            {
-                "id":105,
-                "option":"nature",
-                "isCorrect":false
-            },
-            {
-                "id":106,
-                "option":"environment",
-                "isCorrect":true
-            },
-            {
-                "id":107,
-                "option":"fauna",
-                "isCorrect":false
-            },
-            {
-                "id":108,
-                "option":"geology",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"When I lived on the East Coast, I _ have an entire wardrobe just for the winter months.",
-        "id":28,
-        "options":[
-            {
-                "id":109,
-                "option":"had used to",
-                "isCorrect":false
-            },
-            {
-                "id":110,
-                "option":"use to",
-                "isCorrect":false
-            },
-            {
-                "id":111,
-                "option":"used to",
-                "isCorrect":true
-            },
-            {
-                "id":112,
-                "option":"was used to",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"After listening to Molly talk, I could tell from her _ that she was from the Southern U.S.",
-        "id":29,
-        "options":[
-            {
-                "id":113,
-                "option":"region",
-                "isCorrect":false
-            },
-            {
-                "id":114,
-                "option":"dialect",
-                "isCorrect":true
-            },
-            {
-                "id":115,
-                "option":"linguistic",
-                "isCorrect":false
-            },
-            {
-                "id":116,
-                "option":"vocal",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"The two candidates have _ positions on many issues, but they disagree strongly on nuclear energy.",
-        "id":30,
-        "options":[
-            {
-                "id":117,
-                "option":"similar",
-                "isCorrect":true
-            },
-            {
-                "id":118,
-                "option":"opposite",
-                "isCorrect":false
-            },
-            {
-                "id":119,
-                "option":"adequate",
-                "isCorrect":false
-            },
-            {
-                "id":120,
-                "option":"resemblance",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Dr. Andrews _ is one of the foremost experts in the world on the ancient Egyptians.",
-        "id":31,
-        "options":[
-            {
-                "id":121,
-                "option":", which gave the opening talk,",
-                "isCorrect":false
-            },
-            {
-                "id":122,
-                "option":"which gave the opening talk",
-                "isCorrect":false
-            },
-            {
-                "id":123,
-                "option":", who gave the opening talk,",
-                "isCorrect":true
-            },
-            {
-                "id":124,
-                "option":"who gave the opening talk",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"We _ the French Revolution more closely, but we didn't realize it would be on the test.",
-        "id":32,
-        "options":[
-            {
-                "id":125,
-                "option":"should've studied",
-                "isCorrect":true
-            },
-            {
-                "id":126,
-                "option":"should study",
-                "isCorrect":false
-            },
-            {
-                "id":127,
-                "option":"should've studying",
-                "isCorrect":false
-            },
-            {
-                "id":128,
-                "option":"should been studying",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"By the time he gets his degree, Justin _ eight years in college.",
-        "id":33,
-        "options":[
-            {
-                "id":129,
-                "option":"will spend",
-                "isCorrect":false
-            },
-            {
-                "id":130,
-                "option":"will be spending",
-                "isCorrect":false
-            },
-            {
-                "id":131,
-                "option":"will have spending",
-                "isCorrect":false
-            },
-            {
-                "id":132,
-                "option":"will have spent",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"I wish I _ attend the meeting, but I'm under strict orders to go.",
-        "id":34,
-        "options":[
-            {
-                "id":133,
-                "option":"didn't",
-                "isCorrect":false
-            },
-            {
-                "id":134,
-                "option":"hadn't",
-                "isCorrect":false
-            },
-            {
-                "id":135,
-                "option":"hadn't to",
-                "isCorrect":false
-            },
-            {
-                "id":136,
-                "option":"didn't have to",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"I _ you try the new steak sandwich with Swiss cheese.",
-        "id":35,
-        "options":[
-            {
-                "id":137,
-                "option":"recommend to",
-                "isCorrect":false
-            },
-            {
-                "id":138,
-                "option":"recommended that",
-                "isCorrect":true
-            },
-            {
-                "id":139,
-                "option":"recommending",
-                "isCorrect":false
-            },
-            {
-                "id":140,
-                "option":"had recommend",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Andy ordered the shrimp linguini, _ that he usually doesn't like seafood.",
-        "id":36,
-        "options":[
-            {
-                "id":141,
-                "option":"despite the fact",
-                "isCorrect":true
-            },
-            {
-                "id":142,
-                "option":"however",
-                "isCorrect":false
-            },
-            {
-                "id":143,
-                "option":"yet",
-                "isCorrect":false
-            },
-            {
-                "id":144,
-                "option":"although",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"He avoided _ to me after the argument we had last week.",
-        "id":37,
-        "options":[
-            {
-                "id":145,
-                "option":"talked to",
-                "isCorrect":false
-            },
-            {
-                "id":146,
-                "option":"having talk",
-                "isCorrect":false
-            },
-            {
-                "id":147,
-                "option":"talking",
-                "isCorrect":true
-            },
-            {
-                "id":148,
-                "option":"talk",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Our teacher asked us to read _ five of the novel before class on Wednesday.",
-        "id":38,
-        "options":[
-            {
-                "id":149,
-                "option":"verse",
-                "isCorrect":false
-            },
-            {
-                "id":150,
-                "option":"index",
-                "isCorrect":false
-            },
-            {
-                "id":151,
-                "option":"chapter",
-                "isCorrect":true
-            },
-            {
-                "id":152,
-                "option":"report",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Dr. Carter studies the _ peoples of America, who lived in the region thousands of years before the Europeans arrived.",
-        "id":39,
-        "options":[
-            {
-                "id":153,
-                "option":"immigration",
-                "isCorrect":false
-            },
-            {
-                "id":154,
-                "option":"colony",
-                "isCorrect":false
-            },
-            {
-                "id":155,
-                "option":"habitation",
-                "isCorrect":false
-            },
-            {
-                "id":156,
-                "option":"indigenous",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"People who stay in the house at night have reported such mysterious _ as hearing loud voices and seeing ghostly forms.",
-        "id":40,
-        "options":[
-            {
-                "id":157,
-                "option":"result",
-                "isCorrect":false
-            },
-            {
-                "id":158,
-                "option":"perplexity",
-                "isCorrect":false
-            },
-            {
-                "id":159,
-                "option":"phenomena",
-                "isCorrect":false
-            },
-            {
-                "id":160,
-                "option":"confusing",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"According to the passage, Abraham Lincoln died.",
-        "readingComprehension": {
-            "title": "Section II: Reading Comprehension",
-            "subtitle": "Read each passage and then choose the best response",
-            "passage": "Passage A",
-            "text": "<p>Abraham Lincoln, the sixteenth President of the United States, successfully led his country through its greatest internal crisis, the American Civil War, only to be assassinated as the war was coming to an end. Before becoming the first Republican elected to the Presidency, Lincoln was a lawyer, an Illinois state legislator, a member of the United States House of Representatives, and an unsuccessful candidate for election to the Senate.</p><br><p>As an outspoken opponent of the expansion of slavery in the United States, Lincoln won the Republican Party nomination in 1860 and was elected president later that year. During his time in office, he contributed to the effort to preserve the United States by leading the defeat of the secessionist Confederate States of America in the American Civil War. He introduced measures that resulted in the abolition of slavery, issuing his Emancipation Proclamation in 1863 and promoting the passage of the Thirteenth Amendment to the Constitution, which passed Congress before Lincoln's death and was ratified by the states later in 1865.</p>"
-        },
-        "id":41,
-        "options":[
-            {
-                "id":161,
-                "option":"after the American Civil War",
-                "isCorrect":false
-            },
-            {
-                "id":162,
-                "option":"in 1864",
-                "isCorrect":false
-            },
-            {
-                "id":163,
-                "option":"on the battlefield",
-                "isCorrect":false
-            },
-            {
-                "id":164,
-                "option":"before the conclusion of the war",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"According to the passage, before he became president Lincoln",
-        "id":42,
-        "options":[
-            {
-                "id":165,
-                "option":"favored the expansion of slavery",
-                "isCorrect":false
-            },
-            {
-                "id":166,
-                "option":"favored the abolition of slavery",
-                "isCorrect":false
-            },
-            {
-                "id":167,
-                "option":"did not favor the expansion of slavery",
-                "isCorrect":true
-            },
-            {
-                "id":168,
-                "option":"did not voice an opinion on slavery",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"According to the passage, the Confederate States of America",
-        "id":43,
-        "options":[
-            {
-                "id":169,
-                "option":"succeeded in their goals during the war",
-                "isCorrect":false
-            },
-            {
-                "id":170,
-                "option":"were defeated during the war",
-                "isCorrect":true
-            },
-            {
-                "id":171,
-                "option":"defeated the opposition in the war",
-                "isCorrect":false
-            },
-            {
-                "id":172,
-                "option":"helped preserve the United States",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"Based on the information in the passage, a polymath is probably:",
-        "readingComprehension": {
-            "passage": "Passage B",
-            "text": "<p>Benjamin Franklin was one of the Founding Fathers of the United States of America. A noted polymath, Franklin was a leading author and printer, satirist, political theorist, politician, scientist, inventor, civic activist, statesman and diplomat. As a scientist he was a major figure in the Enlightenment and the history of physics for his discoveries and theories regarding electricity. He invented the lightning rod, bifocals, the Franklin stove, a carriage odometer, and a musical instrument. He formed both the first public lending library in America and first fire department in Pennsylvania. He was an early proponent of colonial unity and as a political writer and activist he, more than anyone, invented the idea of an American nation and as a diplomat during the American Revolution, he secured the French alliance that helped to make independence possible.</p><br><p>Franklin is credited as being foundational to the roots of American values and character, a marriage of the practical and democratic Puritan values of thrift, hard work, education, community spirit, self-governing institutions, and opposition to authoritarianism both political and religious, with the scientific and tolerant values of the Enlightenment. In the words of Henry Steele Commager, \"In Franklin could be merged the virtues of Puritanism without its defects, the illumination of the Enlightenment without its heat.\" To Walter Isaacson, this makes Franklin, \"the most accomplished American of his age and the most influential in inventing the type of society America would become.\"</p>"
-        },
-        "id":44,
-        "options":[
-            {
-                "id":173,
-                "option":"an experted in advanced mathematics",
-                "isCorrect":false
-            },
-            {
-                "id":174,
-                "option":"a founding member of a government",
-                "isCorrect":false
-            },
-            {
-                "id":175,
-                "option":"an expert in many different fields",
-                "isCorrect":true
-            },
-            {
-                "id":176,
-                "option":"a religious free-thinker",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"According to the passage, which of the following is a Puritan value?",
-        "id":45,
-        "options":[
-            {
-                "id":177,
-                "option":"using money carefully",
-                "isCorrect":true
-            },
-            {
-                "id":178,
-                "option":"strict adherence to religious rites",
-                "isCorrect":false
-            },
-            {
-                "id":179,
-                "option":"toleration of science",
-                "isCorrect":false
-            },
-            {
-                "id":180,
-                "option":"free love",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"In this passage a 'treaty' most likely refers to",
-        "readingComprehension": {
-            "passage": "Passage C",
-            "text": "<p>The Treaty of Guadalupe Hidalgo, by which California formally became a part of the United States, was signed February 2, 1848. Two weeks before, in one of the innumerable canyons of the Sierra Nevada, a man named James W. Marshall chanced upon some glittering particles in the tail race of a saw mill belonging to his employer, John A. Sutter. Before the ink was scarcely dry on the treaty, the news of Marshall's discovery had begun to set an eager world in ferment and to change the whole course of California history.</p><br><p>Gold had been found in California long before Marshall gathered it out of the tail race of the mill on the South Fork of the American River. Seven years before, in the Santa Feliciana Canyon, Francisco Lopez, a native Californian, came upon traces of the metal as he was digging up wild onions in the shade of an oak tree under which he had stopped to rest.</p>"
-        },
-        "id":46,
-        "options":[
-            {
-                "id":181,
-                "option":"a contract between an employer and an employee",
-                "isCorrect":false
-            },
-            {
-                "id":182,
-                "option":"a contract between two governments",
-                "isCorrect":true
-            },
-            {
-                "id":183,
-                "option":"an election for state leader",
-                "isCorrect":false
-            },
-            {
-                "id":184,
-                "option":"an attack on a sovereign territory",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"According to the passage, Francisco Lopez was",
-        "id":47,
-        "options":[
-            {
-                "id":185,
-                "option":"one of the first farmers in California",
-                "isCorrect":false
-            },
-            {
-                "id":186,
-                "option":"a local person excited by the Marshall's discovery",
-                "isCorrect":false
-            },
-            {
-                "id":187,
-                "option":"a miner who dealt in rare metals",
-                "isCorrect":false
-            },
-            {
-                "id":188,
-                "option":"one of the first people to find gold in California",
-                "isCorrect":true
-            }
-        ]
-    },
-    {
-        "question":"In this passage, the word 'edifice' probably means",
-        "readingComprehension": {
-            "passage": "Passage D",
-            "text": "<p>A throng of bearded men, in sad colored garments and grey steeple-crowned hats, intermixed with women, some wearing hoods, and others bareheaded, was assembled in front of a wooden edifice, the door of which was heavily timbered with oak, and studded with iron spikes.</p><br><p>The founders of a new colony, whatever Utopia of human virtue and happiness they might originally project, have invariably recognized it among their earliest practical necessities to allot a portion of the virgin soil as a cemetery, and another portion as the site of a prison. In accordance with this rule it may be safely assumed that the forefathers of Boston had built the first prison-house somewhere in the Vicinity of Cornhill, almost as seasonably as they marked out the first burial-ground, on Isaac Johnson's lot, and round about his grave, which subsequently became the nucleus of all the congregated sepulchers in the old churchyard of King's Chapel.</p><br> <p>Certain it is that, some fifteen or twenty years after the settlement of the town, the wooden jail was already marked with weatherstains and other indications of age, which gave a yet darker aspect to its beetle-browed and gloomy front. The rust on the ponderous iron-work of its oaken door looked more antique than anything else in the New World. Like all that pertains to crime, it seemed never to have known a youthful era. Before this ugly edifice, and between it and the wheel-track of the street, was a grass-plot, much overgrown with burdock, pig-weed, apple-pern, and such unsightly vegetation, which evidently found something congenial in the soil that had so early borne the black flower of civilized society, a prison.</p>"
-        },
-        "id":48,
-        "options":[
-            {
-                "id":189,
-                "option":"a complex organization",
-                "isCorrect":false
-            },
-            {
-                "id":190,
-                "option":"a neighborhood church",
-                "isCorrect":true
-            },
-            {
-                "id":191,
-                "option":"a large building",
-                "isCorrect":true
-            },
-            {
-                "id":192,
-                "option":"a boundary wall",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"The term 'Utopia' probably refers to",
-        "id":49,
-        "options":[
-            {
-                "id":193,
-                "option":"the name of the new colony",
-                "isCorrect":false
-            },
-            {
-                "id":194,
-                "option":"an ideal society with no problems",
-                "isCorrect":true
-            },
-            {
-                "id":195,
-                "option":"a modern alternative to a cemetery",
-                "isCorrect":false
-            },
-            {
-                "id":196,
-                "option":"the original home of the colonists",
-                "isCorrect":false
-            }
-        ]
-    },
-    {
-        "question":"In this passage, the word 'congenial' is closest in meaning to",
-        "id":50,
-        "options":[
-            {
-                "id":193,
-                "option":"hospitable",
-                "isCorrect":true
-            },
-            {
-                "id":194,
-                "option":"contradictory",
-                "isCorrect":true
-            },
-            {
-                "id":195,
-                "option":"constructive",
-                "isCorrect":false
-            },
-            {
-                "id":196,
-                "option":"excavated",
-                "isCorrect":false
-            }
-        ]
-    }
+				"option":"visited",
+				"isCorrect":false
+			},
+			{
+				"id": 15,
+				"option":"visiting",
+				"isCorrect":true
+			},
+			{
+				"id": 16,
+				"option":"visits",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Yesterday, Mr. Choi _ to the harbor.",
+		"id": 5,
+		"options":[
+			{
+				"id": 17,
+				"option":"went",
+				"isCorrect":true
+			},
+			{
+				"id": 18,
+				"option":"go",
+				"isCorrect":false
+			},
+			{
+				"id": 19,
+				"option":"going",
+				"isCorrect":false
+			},
+			{
+				"id": 20,
+				"option":"had be",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Alicia hates football, but she _ watching a baseball game.",
+		"id": 6,
+		"options":[
+			{
+				"id": 21,
+				"option":"hate to",
+				"isCorrect":false
+			},
+			{
+				"id": 22,
+				"option":"hates",
+				"isCorrect":false
+			},
+			{
+				"id": 23,
+				"option":"doesn't mind",
+				"isCorrect":true
+			},
+			{
+				"id": 24,
+				"option":"sick of",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"China is the _ country in the world.",
+		"id": 7,
+		"options":[
+			{
+				"id": 25,
+				"option":"bigger",
+				"isCorrect":false
+			},
+			{
+				"id": 26,
+				"option":"biggest",
+				"isCorrect":true
+			},
+			{
+				"id": 27,
+				"option":"most big",
+				"isCorrect":false
+			},
+			{
+				"id": 28,
+				"option":"big",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"_ we visit the Vatican while we're in Italy?",
+		"id": 8,
+		"options":[
+			{
+				"id": 29,
+				"option":"Why don't",
+				"isCorrect":true
+			},
+			{
+				"id": 30,
+				"option":"Why not",
+				"isCorrect":false
+			},
+			{
+				"id": 31,
+				"option":"Why",
+				"isCorrect":true
+			},
+			{
+				"id": 32,
+				"option":"Why could",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"If I visited France, _ to spend at least three days in Paris.",
+		"id": 9,
+		"options":[
+			{
+				"id": 33,
+				"option":"I will",
+				"isCorrect":false
+			},
+			{
+				"id": 34,
+				"option":"I would",
+				"isCorrect":false
+			},
+			{
+				"id": 35,
+				"option":"I'm planning",
+				"isCorrect":false
+			},
+			{
+				"id": 36,
+				"option":"I would plan",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"The doctor _ my brother that he has to exercise more often.",
+		"id": 10,
+		"options":[
+			{
+				"id": 37,
+				"option":"said",
+				"isCorrect":false
+			},
+			{
+				"id": 38,
+				"option":"told to",
+				"isCorrect":false
+			},
+			{
+				"id": 39,
+				"option":"told",
+				"isCorrect":true
+			},
+			{
+				"id": 40,
+				"option":"said that",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"In the future, I think that everyone _ flying cars.",
+		"id": 11,
+		"options":[
+			{
+				"id": 41,
+				"option":"driving",
+				"isCorrect":false
+			},
+			{
+				"id": 42,
+				"option":"drives",
+				"isCorrect":false
+			},
+			{
+				"id": 43,
+				"option":"will driving",
+				"isCorrect":false
+			},
+			{
+				"id": 44,
+				"option":"will drive",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"_ company that's sold the most digital music players is Apple.",
+		"id": 12,
+		"options":[
+			{
+				"id": 45,
+				"option":"An",
+				"isCorrect":false
+			},
+			{
+				"id": 46,
+				"option":"A",
+				"isCorrect":false
+			},
+			{
+				"id": 47,
+				"option":"This",
+				"isCorrect":false
+			},
+			{
+				"id": 48,
+				"option":"The",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"After the teacher talked to them, the students worked _ than before.",
+		"id":13,
+		"options":[
+			{
+				"id":49,
+				"option":"quieter",
+				"isCorrect":false
+			},
+			{
+				"id":50,
+				"option":"more quietly",
+				"isCorrect":true
+			},
+			{
+				"id":51,
+				"option":"quietly",
+				"isCorrect":false
+			},
+			{
+				"id":52,
+				"option":"as quietly",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"I _ Moscow yet, but I want to go there someday.",
+		"id":14,
+		"options":[
+			{
+				"id":53,
+				"option":"haven't visited",
+				"isCorrect":true
+			},
+			{
+				"id":54,
+				"option":"visited",
+				"isCorrect":false
+			},
+			{
+				"id":55,
+				"option":"was visiting",
+				"isCorrect":false
+			},
+			{
+				"id":56,
+				"option":"wasn't visit",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"The travelers complained that the excursion wasn't _ for them to enjoy all the sights of the jungle.",
+		"id":15,
+		"options":[
+			{
+				"id":57,
+				"option":"too long",
+				"isCorrect":false
+			},
+			{
+				"id":58,
+				"option":"enough long",
+				"isCorrect":false
+			},
+			{
+				"id":59,
+				"option":"long enough",
+				"isCorrect":true
+			},
+			{
+				"id":60,
+				"option":"longer enough",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"My aunt _ chicken, when she heard a sinister scream outside.",
+		"id":16,
+		"options":[
+			{
+				"id":61,
+				"option":"cooked",
+				"isCorrect":false
+			},
+			{
+				"id":62,
+				"option":"was cooking",
+				"isCorrect":true
+			},
+			{
+				"id":63,
+				"option":"is cooking",
+				"isCorrect":false
+			},
+			{
+				"id":64,
+				"option":"will cook",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"The girls _ cook Thai food and Japanese food last week.",
+		"id":17,
+		"options":[
+			{
+				"id":65,
+				"option":"can",
+				"isCorrect":false
+			},
+			{
+				"id":66,
+				"option":"manage to",
+				"isCorrect":false
+			},
+			{
+				"id":67,
+				"option":"were",
+				"isCorrect":false
+			},
+			{
+				"id":68,
+				"option":"were able to",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"Alex has lived in San Francisco _ 1996.",
+		"id":18,
+		"options":[
+			{
+				"id":69,
+				"option":"for",
+				"isCorrect":false
+			},
+			{
+				"id":70,
+				"option":"since",
+				"isCorrect":true
+			},
+			{
+				"id":71,
+				"option":"for the",
+				"isCorrect":false
+			},
+			{
+				"id":72,
+				"option":"thereafter",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"The Portrait of a Lady _ Henry James, an American author.",
+		"id":19,
+		"options":[
+			{
+				"id":73,
+				"option":"wrote",
+				"isCorrect":false
+			},
+			{
+				"id":74,
+				"option":"is written by",
+				"isCorrect":false
+			},
+			{
+				"id":75,
+				"option":"was written by",
+				"isCorrect":true
+			},
+			{
+				"id":76,
+				"option":"had written",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Can you do me a favor and _ some of my clothes at the dry cleaners?",
+		"id":20,
+		"options":[
+			{
+				"id":77,
+				"option":"take out",
+				"isCorrect":false
+			},
+			{
+				"id":78,
+				"option":"take up",
+				"isCorrect":false
+			},
+			{
+				"id":79,
+				"option":"pick up",
+				"isCorrect":true
+			},
+			{
+				"id":80,
+				"option":"pick out",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"If I have free time next week, _ to the beach.",
+		"id":21,
+		"options":[
+			{
+				"id":81,
+				"option":"I'll go",
+				"isCorrect":true
+			},
+			{
+				"id":82,
+				"option":"I would go",
+				"isCorrect":false
+			},
+			{
+				"id":83,
+				"option":"going",
+				"isCorrect":false
+			},
+			{
+				"id":84,
+				"option":"I can",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Greg _ the piano every day for the past four years.",
+		"id":22,
+		"options":[
+			{
+				"id":85,
+				"option":"plays",
+				"isCorrect":false
+			},
+			{
+				"id":86,
+				"option":"playing",
+				"isCorrect":false
+			},
+			{
+				"id":87,
+				"option":"has been playing",
+				"isCorrect":true
+			},
+			{
+				"id":88,
+				"option":"did playing",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"After working an office job for ten years, _ a creature of habit.",
+		"id":23,
+		"options":[
+			{
+				"id":89,
+				"option":"Phil turned into",
+				"isCorrect":true
+			},
+			{
+				"id":90,
+				"option":"Phil turned him into",
+				"isCorrect":false
+			},
+			{
+				"id":91,
+				"option":"turned Phil into",
+				"isCorrect":false
+			},
+			{
+				"id":92,
+				"option":"Phil turned in",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"They had _ time at the Fountain Club that they decided to go back next Saturday.",
+		"id":24,
+		"options":[
+			{
+				"id":93,
+				"option":"had so many good",
+				"isCorrect":false
+			},
+			{
+				"id":94,
+				"option":"so good",
+				"isCorrect":false
+			},
+			{
+				"id":95,
+				"option":"such that time",
+				"isCorrect":false
+			},
+			{
+				"id":96,
+				"option":"such a good",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"_ go shopping than see the new superhero movie.",
+		"id":25,
+		"options":[
+			{
+				"id":97,
+				"option":"I prefer",
+				"isCorrect":false
+			},
+			{
+				"id":98,
+				"option":"I'm rather",
+				"isCorrect":false
+			},
+			{
+				"id":99,
+				"option":"I'd rather",
+				"isCorrect":true
+			},
+			{
+				"id":100,
+				"option":"I'd rather to",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"I think that visiting America is _ visiting Canada.",
+		"id":26,
+		"options":[
+			{
+				"id":101,
+				"option":"more exciting",
+				"isCorrect":false
+			},
+			{
+				"id":102,
+				"option":"more exciting than",
+				"isCorrect":true
+			},
+			{
+				"id":103,
+				"option":"more excitement than",
+				"isCorrect":false
+			},
+			{
+				"id":104,
+				"option":"more exciting as",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"The black bear thrives in a forested _ rich in animals such as salmon, deer and bees.",
+		"id":27,
+		"options":[
+			{
+				"id":105,
+				"option":"nature",
+				"isCorrect":false
+			},
+			{
+				"id":106,
+				"option":"environment",
+				"isCorrect":true
+			},
+			{
+				"id":107,
+				"option":"fauna",
+				"isCorrect":false
+			},
+			{
+				"id":108,
+				"option":"geology",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"When I lived on the East Coast, I _ have an entire wardrobe just for the winter months.",
+		"id":28,
+		"options":[
+			{
+				"id":109,
+				"option":"had used to",
+				"isCorrect":false
+			},
+			{
+				"id":110,
+				"option":"use to",
+				"isCorrect":false
+			},
+			{
+				"id":111,
+				"option":"used to",
+				"isCorrect":true
+			},
+			{
+				"id":112,
+				"option":"was used to",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"After listening to Molly talk, I could tell from her _ that she was from the Southern U.S.",
+		"id":29,
+		"options":[
+			{
+				"id":113,
+				"option":"region",
+				"isCorrect":false
+			},
+			{
+				"id":114,
+				"option":"dialect",
+				"isCorrect":true
+			},
+			{
+				"id":115,
+				"option":"linguistic",
+				"isCorrect":false
+			},
+			{
+				"id":116,
+				"option":"vocal",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"The two candidates have _ positions on many issues, but they disagree strongly on nuclear energy.",
+		"id":30,
+		"options":[
+			{
+				"id":117,
+				"option":"similar",
+				"isCorrect":true
+			},
+			{
+				"id":118,
+				"option":"opposite",
+				"isCorrect":false
+			},
+			{
+				"id":119,
+				"option":"adequate",
+				"isCorrect":false
+			},
+			{
+				"id":120,
+				"option":"resemblance",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Dr. Andrews _ is one of the foremost experts in the world on the ancient Egyptians.",
+		"id":31,
+		"options":[
+			{
+				"id":121,
+				"option":", which gave the opening talk,",
+				"isCorrect":false
+			},
+			{
+				"id":122,
+				"option":"which gave the opening talk",
+				"isCorrect":false
+			},
+			{
+				"id":123,
+				"option":", who gave the opening talk,",
+				"isCorrect":true
+			},
+			{
+				"id":124,
+				"option":"who gave the opening talk",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"We _ the French Revolution more closely, but we didn't realize it would be on the test.",
+		"id":32,
+		"options":[
+			{
+				"id":125,
+				"option":"should've studied",
+				"isCorrect":true
+			},
+			{
+				"id":126,
+				"option":"should study",
+				"isCorrect":false
+			},
+			{
+				"id":127,
+				"option":"should've studying",
+				"isCorrect":false
+			},
+			{
+				"id":128,
+				"option":"should been studying",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"By the time he gets his degree, Justin _ eight years in college.",
+		"id":33,
+		"options":[
+			{
+				"id":129,
+				"option":"will spend",
+				"isCorrect":false
+			},
+			{
+				"id":130,
+				"option":"will be spending",
+				"isCorrect":false
+			},
+			{
+				"id":131,
+				"option":"will have spending",
+				"isCorrect":false
+			},
+			{
+				"id":132,
+				"option":"will have spent",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"I wish I _ attend the meeting, but I'm under strict orders to go.",
+		"id":34,
+		"options":[
+			{
+				"id":133,
+				"option":"didn't",
+				"isCorrect":false
+			},
+			{
+				"id":134,
+				"option":"hadn't",
+				"isCorrect":false
+			},
+			{
+				"id":135,
+				"option":"hadn't to",
+				"isCorrect":false
+			},
+			{
+				"id":136,
+				"option":"didn't have to",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"I _ you try the new steak sandwich with Swiss cheese.",
+		"id":35,
+		"options":[
+			{
+				"id":137,
+				"option":"recommend to",
+				"isCorrect":false
+			},
+			{
+				"id":138,
+				"option":"recommended that",
+				"isCorrect":true
+			},
+			{
+				"id":139,
+				"option":"recommending",
+				"isCorrect":false
+			},
+			{
+				"id":140,
+				"option":"had recommend",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Andy ordered the shrimp linguini, _ that he usually doesn't like seafood.",
+		"id":36,
+		"options":[
+			{
+				"id":141,
+				"option":"despite the fact",
+				"isCorrect":true
+			},
+			{
+				"id":142,
+				"option":"however",
+				"isCorrect":false
+			},
+			{
+				"id":143,
+				"option":"yet",
+				"isCorrect":false
+			},
+			{
+				"id":144,
+				"option":"although",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"He avoided _ to me after the argument we had last week.",
+		"id":37,
+		"options":[
+			{
+				"id":145,
+				"option":"talked to",
+				"isCorrect":false
+			},
+			{
+				"id":146,
+				"option":"having talk",
+				"isCorrect":false
+			},
+			{
+				"id":147,
+				"option":"talking",
+				"isCorrect":true
+			},
+			{
+				"id":148,
+				"option":"talk",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Our teacher asked us to read _ five of the novel before class on Wednesday.",
+		"id":38,
+		"options":[
+			{
+				"id":149,
+				"option":"verse",
+				"isCorrect":false
+			},
+			{
+				"id":150,
+				"option":"index",
+				"isCorrect":false
+			},
+			{
+				"id":151,
+				"option":"chapter",
+				"isCorrect":true
+			},
+			{
+				"id":152,
+				"option":"report",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Dr. Carter studies the _ peoples of America, who lived in the region thousands of years before the Europeans arrived.",
+		"id":39,
+		"options":[
+			{
+				"id":153,
+				"option":"immigration",
+				"isCorrect":false
+			},
+			{
+				"id":154,
+				"option":"colony",
+				"isCorrect":false
+			},
+			{
+				"id":155,
+				"option":"habitation",
+				"isCorrect":false
+			},
+			{
+				"id":156,
+				"option":"indigenous",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"People who stay in the house at night have reported such mysterious _ as hearing loud voices and seeing ghostly forms.",
+		"id":40,
+		"options":[
+			{
+				"id":157,
+				"option":"result",
+				"isCorrect":false
+			},
+			{
+				"id":158,
+				"option":"perplexity",
+				"isCorrect":false
+			},
+			{
+				"id":159,
+				"option":"phenomena",
+				"isCorrect":false
+			},
+			{
+				"id":160,
+				"option":"confusing",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"According to the passage, Abraham Lincoln died.",
+		"readingComprehension": {
+			"title": "Section II: Reading Comprehension",
+			"subtitle": "Read each passage and then choose the best response",
+			"passage": "Passage A",
+			"text": "<p>Abraham Lincoln, the sixteenth President of the United States, successfully led his country through its greatest internal crisis, the American Civil War, only to be assassinated as the war was coming to an end. Before becoming the first Republican elected to the Presidency, Lincoln was a lawyer, an Illinois state legislator, a member of the United States House of Representatives, and an unsuccessful candidate for election to the Senate.</p><br><p>As an outspoken opponent of the expansion of slavery in the United States, Lincoln won the Republican Party nomination in 1860 and was elected president later that year. During his time in office, he contributed to the effort to preserve the United States by leading the defeat of the secessionist Confederate States of America in the American Civil War. He introduced measures that resulted in the abolition of slavery, issuing his Emancipation Proclamation in 1863 and promoting the passage of the Thirteenth Amendment to the Constitution, which passed Congress before Lincoln's death and was ratified by the states later in 1865.</p>"
+		},
+		"id":41,
+		"options":[
+			{
+				"id":161,
+				"option":"after the American Civil War",
+				"isCorrect":false
+			},
+			{
+				"id":162,
+				"option":"in 1864",
+				"isCorrect":false
+			},
+			{
+				"id":163,
+				"option":"on the battlefield",
+				"isCorrect":false
+			},
+			{
+				"id":164,
+				"option":"before the conclusion of the war",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"According to the passage, before he became president Lincoln",
+		"id":42,
+		"options":[
+			{
+				"id":165,
+				"option":"favored the expansion of slavery",
+				"isCorrect":false
+			},
+			{
+				"id":166,
+				"option":"favored the abolition of slavery",
+				"isCorrect":false
+			},
+			{
+				"id":167,
+				"option":"did not favor the expansion of slavery",
+				"isCorrect":true
+			},
+			{
+				"id":168,
+				"option":"did not voice an opinion on slavery",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"According to the passage, the Confederate States of America",
+		"id":43,
+		"options":[
+			{
+				"id":169,
+				"option":"succeeded in their goals during the war",
+				"isCorrect":false
+			},
+			{
+				"id":170,
+				"option":"were defeated during the war",
+				"isCorrect":true
+			},
+			{
+				"id":171,
+				"option":"defeated the opposition in the war",
+				"isCorrect":false
+			},
+			{
+				"id":172,
+				"option":"helped preserve the United States",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"Based on the information in the passage, a polymath is probably:",
+		"readingComprehension": {
+			"passage": "Passage B",
+			"text": "<p>Benjamin Franklin was one of the Founding Fathers of the United States of America. A noted polymath, Franklin was a leading author and printer, satirist, political theorist, politician, scientist, inventor, civic activist, statesman and diplomat. As a scientist he was a major figure in the Enlightenment and the history of physics for his discoveries and theories regarding electricity. He invented the lightning rod, bifocals, the Franklin stove, a carriage odometer, and a musical instrument. He formed both the first public lending library in America and first fire department in Pennsylvania. He was an early proponent of colonial unity and as a political writer and activist he, more than anyone, invented the idea of an American nation and as a diplomat during the American Revolution, he secured the French alliance that helped to make independence possible.</p><br><p>Franklin is credited as being foundational to the roots of American values and character, a marriage of the practical and democratic Puritan values of thrift, hard work, education, community spirit, self-governing institutions, and opposition to authoritarianism both political and religious, with the scientific and tolerant values of the Enlightenment. In the words of Henry Steele Commager, \"In Franklin could be merged the virtues of Puritanism without its defects, the illumination of the Enlightenment without its heat.\" To Walter Isaacson, this makes Franklin, \"the most accomplished American of his age and the most influential in inventing the type of society America would become.\"</p>"
+		},
+		"id":44,
+		"options":[
+			{
+				"id":173,
+				"option":"an experted in advanced mathematics",
+				"isCorrect":false
+			},
+			{
+				"id":174,
+				"option":"a founding member of a government",
+				"isCorrect":false
+			},
+			{
+				"id":175,
+				"option":"an expert in many different fields",
+				"isCorrect":true
+			},
+			{
+				"id":176,
+				"option":"a religious free-thinker",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"According to the passage, which of the following is a Puritan value?",
+		"id":45,
+		"options":[
+			{
+				"id":177,
+				"option":"using money carefully",
+				"isCorrect":true
+			},
+			{
+				"id":178,
+				"option":"strict adherence to religious rites",
+				"isCorrect":false
+			},
+			{
+				"id":179,
+				"option":"toleration of science",
+				"isCorrect":false
+			},
+			{
+				"id":180,
+				"option":"free love",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"In this passage a 'treaty' most likely refers to",
+		"readingComprehension": {
+			"passage": "Passage C",
+			"text": "<p>The Treaty of Guadalupe Hidalgo, by which California formally became a part of the United States, was signed February 2, 1848. Two weeks before, in one of the innumerable canyons of the Sierra Nevada, a man named James W. Marshall chanced upon some glittering particles in the tail race of a saw mill belonging to his employer, John A. Sutter. Before the ink was scarcely dry on the treaty, the news of Marshall's discovery had begun to set an eager world in ferment and to change the whole course of California history.</p><br><p>Gold had been found in California long before Marshall gathered it out of the tail race of the mill on the South Fork of the American River. Seven years before, in the Santa Feliciana Canyon, Francisco Lopez, a native Californian, came upon traces of the metal as he was digging up wild onions in the shade of an oak tree under which he had stopped to rest.</p>"
+		},
+		"id":46,
+		"options":[
+			{
+				"id":181,
+				"option":"a contract between an employer and an employee",
+				"isCorrect":false
+			},
+			{
+				"id":182,
+				"option":"a contract between two governments",
+				"isCorrect":true
+			},
+			{
+				"id":183,
+				"option":"an election for state leader",
+				"isCorrect":false
+			},
+			{
+				"id":184,
+				"option":"an attack on a sovereign territory",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"According to the passage, Francisco Lopez was",
+		"id":47,
+		"options":[
+			{
+				"id":185,
+				"option":"one of the first farmers in California",
+				"isCorrect":false
+			},
+			{
+				"id":186,
+				"option":"a local person excited by the Marshall's discovery",
+				"isCorrect":false
+			},
+			{
+				"id":187,
+				"option":"a miner who dealt in rare metals",
+				"isCorrect":false
+			},
+			{
+				"id":188,
+				"option":"one of the first people to find gold in California",
+				"isCorrect":true
+			}
+		]
+	},
+	{
+		"question":"In this passage, the word 'edifice' probably means",
+		"readingComprehension": {
+			"passage": "Passage D",
+			"text": "<p>A throng of bearded men, in sad colored garments and grey steeple-crowned hats, intermixed with women, some wearing hoods, and others bareheaded, was assembled in front of a wooden edifice, the door of which was heavily timbered with oak, and studded with iron spikes.</p><br><p>The founders of a new colony, whatever Utopia of human virtue and happiness they might originally project, have invariably recognized it among their earliest practical necessities to allot a portion of the virgin soil as a cemetery, and another portion as the site of a prison. In accordance with this rule it may be safely assumed that the forefathers of Boston had built the first prison-house somewhere in the Vicinity of Cornhill, almost as seasonably as they marked out the first burial-ground, on Isaac Johnson's lot, and round about his grave, which subsequently became the nucleus of all the congregated sepulchers in the old churchyard of King's Chapel.</p><br> <p>Certain it is that, some fifteen or twenty years after the settlement of the town, the wooden jail was already marked with weatherstains and other indications of age, which gave a yet darker aspect to its beetle-browed and gloomy front. The rust on the ponderous iron-work of its oaken door looked more antique than anything else in the New World. Like all that pertains to crime, it seemed never to have known a youthful era. Before this ugly edifice, and between it and the wheel-track of the street, was a grass-plot, much overgrown with burdock, pig-weed, apple-pern, and such unsightly vegetation, which evidently found something congenial in the soil that had so early borne the black flower of civilized society, a prison.</p>"
+		},
+		"id":48,
+		"options":[
+			{
+				"id":189,
+				"option":"a complex organization",
+				"isCorrect":false
+			},
+			{
+				"id":190,
+				"option":"a neighborhood church",
+				"isCorrect":true
+			},
+			{
+				"id":191,
+				"option":"a large building",
+				"isCorrect":true
+			},
+			{
+				"id":192,
+				"option":"a boundary wall",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"The term 'Utopia' probably refers to",
+		"id":49,
+		"options":[
+			{
+				"id":193,
+				"option":"the name of the new colony",
+				"isCorrect":false
+			},
+			{
+				"id":194,
+				"option":"an ideal society with no problems",
+				"isCorrect":true
+			},
+			{
+				"id":195,
+				"option":"a modern alternative to a cemetery",
+				"isCorrect":false
+			},
+			{
+				"id":196,
+				"option":"the original home of the colonists",
+				"isCorrect":false
+			}
+		]
+	},
+	{
+		"question":"In this passage, the word 'congenial' is closest in meaning to",
+		"id":50,
+		"options":[
+			{
+				"id":193,
+				"option":"hospitable",
+				"isCorrect":true
+			},
+			{
+				"id":194,
+				"option":"contradictory",
+				"isCorrect":true
+			},
+			{
+				"id":195,
+				"option":"constructive",
+				"isCorrect":false
+			},
+			{
+				"id":196,
+				"option":"excavated",
+				"isCorrect":false
+			}
+		]
+	}
 ]

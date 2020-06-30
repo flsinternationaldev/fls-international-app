@@ -14,7 +14,6 @@ mainContentEl.addEventListener('click', e => {
 	const clickedEl = e.target;
 
 	if (clickedEl.getAttribute('type') === 'radio') {
-		console.log('yeet');
 		const errorContainer = document.querySelector('.pt__error-container');
 
 		if (errorContainer) errorContainer.classList.add('is-hidden'); 

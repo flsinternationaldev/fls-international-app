@@ -126,16 +126,16 @@ app.post('/grade-test', (req, res) => {
 		// TODO: This also needs to send an email to the email provided in the pre arrival test
 		const emailTestResults = async () => {
 			const transporter = nodemailer.createTransport(smtpTransport({
-				// TODO: Host & Post should also be ENV variables
-				name: 'hostgator',
-				host: 'gator3209.hostgator.com',
-				port: 465,
-				// TODO: Does this need to be true?
+				host: functions.config().email.host,
+				port: functions.config().email.port,
+				// Should be 'true' when port is 465
 				secure: true,
 				auth: {
 					user: functions.config().email.username,
 					pass: functions.config().email.password
-				}
+				},
+				debug: true,
+				logger: true
 			}));
 
 			// TODO: You're getting tired, Gabriel.
@@ -189,7 +189,7 @@ app.post('/grade-test', (req, res) => {
 			return transporter.sendMail({
 				// TODO: Host & port should also be env variables
 				from: 'FLS International',
-				to: 'akingdebased@gmail.com',
+				to: [globals.userData.email, 'fls@fls.net'],
 				subject: 'Test Results',
 				// TODO: This, rather obviously, needs finessing
 				html: emailHtml

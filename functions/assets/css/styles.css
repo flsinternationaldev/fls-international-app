@@ -105,6 +105,10 @@ select {
 	justify-content: space-evenly;
 }
 
+.pt__pretest-item {
+	display: flex;
+}
+
 /* Footer */
 .footer {
 	color: white;
